@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Calculator</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+<div class="container">
+    <h1>Expense Calculator</h1>
+
+    <div class="expense-form">
+        <h2>Add New Expense</h2>
+        <div class="form-group">
+            <input type="text" id="category" placeholder="Category" required>
+            <input type="number" id="amount" placeholder="Amount ($)" required>
+            <button onclick="addExpense()" class="btn-add">Add Expense</button>
+        </div>
+    </div>
+
+    <div class="expenses-table">
+        <h2>Expenses List</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Category</th>
+                <th>Amount ($)</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody id="expensesList">
+            </tbody>
+        </table>
+    </div>
+
+    <button onclick="calculateExpenses()" class="btn-calculate">Calculate</button>
+
+    <div class="results" id="results">
+        <div class="result-card">
+            <h3>Total Expenses</h3>
+            <p id="totalExpenses">$0</p>
+        </div>
+        <div class="result-card">
+            <h3>Average Daily Expense</h3>
+            <p id="averageExpense">$0</p>
+        </div>
+        <div class="result-card">
+            <h3>Top 3 Expenses</h3>
+            <ul id="topExpenses">
+                <li>No expenses yet</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="task1.js"></script>
+</body>
+</html>
