@@ -2,9 +2,11 @@
 
 This repository contains three independent tasks, each located in its own folder:
 
-- `task_1`: Web Application — Expense Calculator
-- `task_2`: API Testing — Identifying Defects in Product Data
-- `task_3`: SQL Queries — Analyzing a Database Online
+ `task_1`: Web Application — Expense Calculator
+
+ `task_2`: API Testing — Identifying Defects in Product Data
+ 
+ `task_3`: SQL Queries — Analyzing a Database Online
 
 ---
 
